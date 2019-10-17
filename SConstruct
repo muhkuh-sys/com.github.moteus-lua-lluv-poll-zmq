@@ -62,7 +62,7 @@ tArcList = atEnv.DEFAULT.ArchiveList('zip')
 tArcList.AddFiles('',
                     'installer/install.lua')
 
-tArcList.AddFiles('lua/',
+tArcList.AddFiles('lua/lluv',
                   os.path.join(strDepackPath, 'src', 'lua', 'lluv', 'poll_zmq.lua'))
 
 
